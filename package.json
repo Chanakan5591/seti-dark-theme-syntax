@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "name": "default-light-syntax",
-  "description": "Default light syntax theme",
+  "version": "0.0.0",
+  "name": "seti-dark-theme-syntax",
+  "description": "Seti Dark syntax theme for InkDrop",
   "theme": "syntax",
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css"

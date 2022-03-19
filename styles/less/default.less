@@ -1,11 +1,14 @@
+// Original seti color scheme by Jesse Weed (https://github.com/jesseweed/seti-syntax)
+
 @import "./colors";
 
 .editor {
 
   .CodeMirror {
     // Background color of main window
-    background-color: #FFFFFF;
-    color: @base02;
+    background-color: #151718 !important;
+    color: #CFD2D1 !important;
+    border: none;
   }
   .CodeMirror-scroll {
     // Color of otherwise un-styled text
@@ -13,28 +16,32 @@
   }
   .CodeMirror-gutters {
     // Gutter to the left
-    background-color: #FFFFFF;
+    color: #404b53;
+    background-color: #0E1112;
+    border: none;
   }
   .CodeMirror-linenumber {
     // Line numbers in the gutter
-    color: @base03;
+    color: #6d8a88;
     opacity: 0.6;
   }
   .CodeMirror-selected {
     // Highlighed text
-    background-color: @base05;
+    background-color: rgba(255, 255, 255, 0.10);
   }
   .CodeMirror-focused .CodeMirror-selected {
     // Highlighed text
-    background-color: @base04;
+    background-color: rgba(255,255,255, 0.10);
   }
   .CodeMirror-cursor {
     // The cursor
-    border-left: 1px solid @base00;
+    border-left: solid thin #f8f8f0;
   }
   .CodeMirror-matchingbracket,
   .CodeMirror-matchingtag {
     // When you click a tag/bracket and the matching one is highlighted
+    text-decoration: underline;
+    color: white !important;
     background: @base03 !important;
     border-bottom: 1px solid @base08 !important;
   }
@@ -76,44 +83,53 @@
   .CodeMirror {
     .cm-atom,
     .cm-formatting-list.cm-variable-3 {
-      color: @base0C;
+      color: #cd3f45;
     }
 
     .cm-keyword,
     .cm-formatting-list.cm-variable-2 {
-      color: @base0A;
+      color: #ff79c6;
     }
 
     .cm-url,
     .cm-string,
     .cm-string-2,
     .cm-hr {
-      color: @base09;
+      color: #55b5db;
     }
     .cm-number,
     .cm-attribute,
     .cm-plus {
-      color: @base0A;
+      color: #9fca56;
     }
-    .cm-def,
+    .cm-def {
+      color: #55b5db;
+    }
     .cm-property {
-      color: @base0C;
+      color: #a074c4;
     }
     .cm-variable {
-      color: @base0A;
+      color: #55b5db;
     }
-    .cm-operator,
-    .cm-meta,
-    .cm-bracket {
-      color: @base0E;
+    .cm-variable-2 {
+      color: #a074c4;
+    }
+    .cm-variable-3 {
+      color: #9fca56;
+    }
+    .cm-operator {
+      color: #9fca56;
+    }
+    .cm-meta {
+      color: #55b5db;
     }
     .cm-comment {
-      color: @base04;
+      color: #41535b;
       font-style: italic;
     }
     .cm-error,
     .cm-minus {
-      color: @base0B;
+      color: #cc3e44;
     }
     .cm-formatting-header {
       opacity: 0.3;
@@ -129,9 +145,11 @@
       color: @base0C;
     }
     .cm-qualifier,
-    .cm-builtin,
+    .cm-builtin {
+      color: #9fca56;
+    }
     .cm-tag {
-      color: @base08;
+      color: #55b5db;
     }
     .cm-quote {
       color: @base0F;
@@ -173,6 +191,6 @@
 
   /* Active Line Highlight support */
   .CodeMirror-activeline-background, .CodeMirror-activeline-gutter {
-    background-color: fade(@base06, 70%) !important;
+    background: #101213;
   }
 }
