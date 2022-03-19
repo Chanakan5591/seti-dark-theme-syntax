@@ -3,6 +3,10 @@
   "name": "seti-dark-theme-syntax",
   "description": "Seti Dark syntax theme for InkDrop",
   "theme": "syntax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chanakan55991/seti-dark-theme-syntax.git"
+  }
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css"
   },
