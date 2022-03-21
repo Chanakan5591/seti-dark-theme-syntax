@@ -8,7 +8,7 @@
   border: none;
 }
 .editor .CodeMirror-scroll {
-  color: #434C5E;
+  color: #BBDEFB;
 }
 .editor .CodeMirror-gutters {
   color: #404b53;
@@ -153,7 +153,7 @@
 }
 .editor .CodeMirror .cm-inline-code {
   background: rgba(0, 0, 0, 0.02);
-  color: #519aba;
+  color: #4C566A;
 }
 .editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground {
   background: rgba(0, 0, 0, 0.01);
