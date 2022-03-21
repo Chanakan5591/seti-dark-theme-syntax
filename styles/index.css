@@ -3,8 +3,8 @@
   /* Active Line Highlight support */
 }
 .editor .CodeMirror {
-  background-color: #151718 !important;
-  color: #CFD2D1 !important;
+  background-color: #151718;
+  color: #CFD2D1;
   border: none;
 }
 .editor .CodeMirror-scroll {
@@ -31,9 +31,9 @@
 .editor .CodeMirror-matchingbracket,
 .editor .CodeMirror-matchingtag {
   text-decoration: underline;
-  color: white !important;
-  background: #4C566A !important;
-  border-bottom: 1px solid #88C0D0 !important;
+  color: white;
+  background: #4C566A;
+  border-bottom: 1px solid #88C0D0;
 }
 .editor .CodeMirror-foldgutter-open:after {
   color: #4C566A;
