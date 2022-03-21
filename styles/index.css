@@ -152,8 +152,8 @@
   opacity: 0.4;
 }
 .editor .CodeMirror .cm-inline-code {
-  background: rgba(0, 0, 0, 0.02);
-  color: #4C566A;
+  background: rgba(150, 150, 150, 0.1);
+  color: #BBDEFB;
 }
 .editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground {
   background: rgba(0, 0, 0, 0.01);
